@@ -2,7 +2,7 @@ import { App, cert, getApp, getApps, initializeApp } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
 import { getStorage } from "firebase-admin/storage";
 
-const serviceKey = require("@/service_key.json");
+const serviceKey = require("@/servicekey.json");
 let app: App;
 
 if (getApps().length === 0) {
