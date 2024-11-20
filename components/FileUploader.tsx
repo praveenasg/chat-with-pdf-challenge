@@ -46,7 +46,7 @@ function FileUploader() {
         // toast
       }
     },
-    [handleUpload]
+    [handleUpload, filesLoading, isOverFileLimit, toast]
   );
   const { getRootProps, getInputProps, isDragActive, isFocused, isDragAccept } =
     useDropzone({
